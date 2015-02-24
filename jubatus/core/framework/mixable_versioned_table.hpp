@@ -24,10 +24,14 @@
 #include "../../core/framework/push_mixable.hpp"
 #include "../../core/framework/linear_mixable.hpp"
 #include "../../core/table/column/column_table.hpp"
-#include "../../core/unlearner/unlearner_base.hpp"
 
 namespace jubatus {
 namespace core {
+namespace unlearner {
+
+class unlearner_base;
+
+}  // namespace unlearner
 namespace framework {
 
 typedef std::map<table::owner, uint64_t> version_clock;
